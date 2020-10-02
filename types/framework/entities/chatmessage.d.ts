@@ -1,3 +1,36 @@
+/**
+ * Data passed by renderChatMessage Hook
+ */
+declare interface MessageRenderData {
+
+	alias: string;
+	author: User;
+	borderColor?: string;
+	cssClass: string;
+	isWhisper: boolean;
+	message: {
+		content?: string;
+		flags: object;
+		flavor?: string;
+		roll?: string;
+		sound?: string;
+		speaker: {
+			scene?: string;
+			actor?: string;
+			token?: string;
+			alias?: string;
+		};
+		timestamp: number;
+		type: number;
+		user: string;
+		whisper: string[];
+		_id: string;
+	};
+	user: User;
+	whisperTo: string;
+
+}
+
 declare class Messages extends Collection<ChatMessage> {
 	entities: ChatMessage[];
 

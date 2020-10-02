@@ -7,6 +7,7 @@ declare let game: Game;
 declare let ui: {
 	notifications: Notifications;
 	tables: RollTableDirectory;
+	chat: ChatLog;
 	combat: CombatTracker;
 	actors: ActorDirectory;
 	windows: Record<number, Application>;
