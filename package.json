@@ -1,6 +1,6 @@
 {
 	"name": "foundryvtt-typescript-types",
-	"version": "0.1.0",
+	"version": "0.0.1",
 	"description": "TypeScript type definitions for Foundry VTT",
 	"scripts": {
 		"lint": "tsc && eslint types/**/*.d.ts"
