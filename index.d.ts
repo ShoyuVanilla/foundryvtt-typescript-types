@@ -96,7 +96,7 @@ import './types/pixi/placeables/tile';
 // UI
 
 import './types/ui/context';
-import './typse/ui/chatlog';
+import './types/ui/chatlog';
 import './types/ui/dialog';
 import './types/ui/dragdrop';
 import './types/ui/filepicker';
